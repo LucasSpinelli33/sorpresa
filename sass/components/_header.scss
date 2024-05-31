@@ -1,0 +1,60 @@
+body {
+    height: 100%;
+    font-family: "Loved by the King", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    nav {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px indigo solid;
+        background-image: url(/fotos-archivo/header.jpg);
+
+        .dropdown {
+            width: 200px;
+            margin-left: 40px;
+
+            .btn-secondary {
+                background-color: indigo !important;
+                font-style: oblique;
+                text-transform: uppercase;
+            }
+
+        }
+
+        .imagenNav {
+            display: flex;
+            justify-content: end;
+        }
+
+
+        img {
+            width: 100px;
+            margin-right: 40px;
+            
+        }
+
+
+
+    }
+}
+
+main {
+    .carousel {
+        .carousel-item {
+
+
+            width: 300px !important;
+            height: 300px !important;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
